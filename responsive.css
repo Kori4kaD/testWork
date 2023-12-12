@@ -1,0 +1,114 @@
+@media screen and (max-width: 1342px) {
+    body {
+        font-size: 12px;
+      }
+      h2{
+        font-size: 24px;
+      }
+      h3 {
+        font-size: 22px;
+      }
+      h4 {
+        font-size: 20px;
+      }
+      input {
+        font-size: 10px;
+      }
+      .pagination__page {
+        font-size: 10px;
+      }
+      .dashboard {
+        width: 100%;
+      }
+      .product {
+        width: 60vw;
+      }
+      .one{
+        width: 134px;
+      }
+      .two {
+        width: 97px;
+      }
+      .three {
+        width: 119px;
+      }
+      .four {
+        width: 171px;
+      }
+      .five{
+width: 81px;
+      }
+      .grid-container {
+width: 100%;
+      }
+      hr,
+      .first__hr {
+        width: 100%;
+        margin-left: 0;
+      }
+     }
+     @media screen and (max-width: 1248px) {
+        .page {
+            padding: 0;
+        }
+        .dashboard {
+            flex-direction: column;
+        }
+        .sideMenu {
+            width: 85%;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        .sideMenu__title {
+            margin-bottom: 0;
+        }
+        nav {
+            margin: 20px auto;
+        }
+        ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Два столбика с равной шириной */
+            gap: 10px; /* Расстояние между пунктами */
+        }
+        .hello {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        .product {
+            width: 85%;
+            padding: 15px;
+            margin: 0 auto;
+        }
+        .one {
+            width: 172px;
+          }
+          .two {
+            width: 127px;
+          }
+          .three {
+            width: 154px;
+          }
+          .four {
+            width: 207px;
+          }
+          .five {
+            width: 140px;
+          }
+     }
+     @media screen and (max-width: 1248px) {
+       .product{
+        min-width: 744px;
+      
+       } 
+     }
+     @media screen and (max-width: 650px) {
+        ul {
+            grid-template-columns:auto;
+            margin: 0 auto;
+            width: 300px;
+        }
+        .page {
+            width: 100%;
+            overflow-x: auto;
+        }
+     }
